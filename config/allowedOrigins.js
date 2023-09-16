@@ -1,3 +1,3 @@
-const allowedOrigins = ["http://localhost:8080"];
+const allowedOrigins = ["https://community-app-xdiz.onrender.com"];
 
 module.exports = allowedOrigins;
