@@ -17,7 +17,6 @@ const generateAccessToken = (user) => {
 const signUpController = async (req, res) => {
   try {
     const { name, email, password } = req.body;
-    let errors = [];
 
     // input validations
     if (!name) {
